@@ -1,10 +1,11 @@
 def line(array)
+  text_out = []
   if (array.length = 0)
-    puts "The line is currently empty."
+    text_out << "The line is currently empty."
   else
-    puts "The line is currently:"
+    text_out << "The line is currently:"
     for i in 0..array.length do
-      puts "#{i+1}. #{array[i]} "
+      text_out << "#{i+1}. #{array[i]} "
     end
   end
 end
