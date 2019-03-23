@@ -4,7 +4,10 @@ def line(array)
   else
     puts "The line is currently:"
     for i in 0..array.length do
-      puts "#{i+1}. #{array[i]}"
+      puts "#{i+1}. #{array[i]} "
+    end
+  end
+end
 
 def take_a_number(array,name)
   array << name
