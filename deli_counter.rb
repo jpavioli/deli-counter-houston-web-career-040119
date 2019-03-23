@@ -1,7 +1,7 @@
 def line(array)
   text_out = []
   if (array.length = 0)
-    text_out << "The line is currently empty."
+    text_out << "The line is empty."
   else
     text_out << "The line is currently:"
     for i in 0..array.length do
