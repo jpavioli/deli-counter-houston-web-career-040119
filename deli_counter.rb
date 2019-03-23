@@ -3,7 +3,7 @@ def line(array)
     puts "The line is currently empty."
   else
     puts "The line is currently:"
-    for i 
+    for i in 0..array.length 
 
 def take_a_number(array,name)
   array << name
