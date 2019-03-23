@@ -1,9 +1,9 @@
 def line(array)
   text_out = []
   if (array.length > 0)
-    text_out << "The line is currently: "
+    text_out << "The line is currently:"
     for i in 0..(array.length-1) do
-      text_out << "#{i+1}. #{array[i]} "
+      text_out << " #{i+1}. #{array[i]}"
     end
   else
     text_out << "The line is currently empty."
