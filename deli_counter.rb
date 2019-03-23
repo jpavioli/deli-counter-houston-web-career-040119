@@ -8,7 +8,7 @@ def line(array)
   else
     text_out << "The line is currently empty."
   end
-  text_out.join 
+  puts text_out.join 
 end
 
 def take_a_number(array,name)
