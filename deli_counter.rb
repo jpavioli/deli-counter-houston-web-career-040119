@@ -8,6 +8,7 @@ def line(array)
       text_out << "#{i+1}. #{array[i]} "
     end
   end
+  text_out.join 
 end
 
 def take_a_number(array,name)
